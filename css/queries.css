@@ -1,0 +1,95 @@
+@media (max-width: 350px) {
+  .hover-container {
+    padding: 5px;
+  }
+}
+@media (max-width: 450px) {
+  .contact:not(:last-child) {
+    margin-right: 0;
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    height: none;
+  }
+  .heading-large {
+    font-size: 50px;
+    padding: 10px;
+  }
+  .header-logo {
+    /* display: none; */
+    top: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .contact-us {
+    padding: 25px 50px;
+  }
+  .our-deals {
+    padding: 10px 0;
+    overflow-x: hidden;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 50px 100px;
+  }
+  .grid-container {
+    padding: 0;
+  }
+  input {
+    width: 90%;
+  }
+  .firstname {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .lastname {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .email {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .message {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    padding: 15px;
+    width: 90%;
+  }
+  .our-partners {
+    padding: 100px 0 200px 0;
+  }
+  .about-us {
+    padding: 200px 0 100px 0;
+  }
+  .what-we-do {
+    padding: 50px 0;
+  }
+  .contact-us {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .video {
+    height: 100%;
+    width: auto;
+  }
+  .logo {
+    height: 50px;
+    width: auto;
+  }
+  .contact-us-header {
+    width: 90%;
+  }
+}
