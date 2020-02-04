@@ -251,12 +251,6 @@ html {
   border-radius: 50%;
 }
 
-.picture {
-  width: auto;
-  height: 100%;
-  margin-left: -50px;
-}
-
 .about-picture-1 {
   transform: scale(1.05) translateX(25.5px);
 }
@@ -267,18 +261,6 @@ html {
 
 .about-picture-3 {
   transform: translateX(27px) scale(2.75);
-}
-
-.partner-picture-1 {
-  transform: translateX(26px) translateY(10px) scale(1.2);
-}
-
-.partner-picture-2 {
-  transform: translateX(-15px);
-}
-
-.partner-picture-3 {
-  transform: translateX(-15px);
 }
 
 .our-partners {
