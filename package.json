@@ -1,0 +1,12 @@
+{
+  "name": "synergize-ventures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server templates/index.html",
+    "compile:sass": "node-sass static/sass/main.scss static/css/styles.css -w"
+  },
+  "author": "",
+  "license": "ISC"
+}

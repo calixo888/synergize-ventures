@@ -4,321 +4,84 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Synergize Ventures</title>
-    <link rel="icon" href="img/cut-logo.png">
-    <link href="https://fonts.googleapis.com/css?family=Assistant|IBM+Plex+Sans|Nanum+Gothic|Quicksand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/partners.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/queries.css">
-    <link rel="stylesheet" href="css/keyframes.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/css/styles.css">
   </head>
   <body>
-    <header class="flex-container header">
-      <video class="video" autoplay muted loop>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+              <img src="./static/img/cut-logo.png" alt="" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-target">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-target">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="our-deals.html">Our Deals</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="our-team.html">Our Team</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="our-partners.html">Our Partners</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="header">
+      <video class="header-video" autoplay muted loop>
         <source src="https://calix-assets.s3-us-west-2.amazonaws.com/drone.mp4" type="video/mp4">
       </video>
-      <img class="header-logo" src="img/logo.png" alt="Synergize Ventures Logo">
-      <h1 class="heading-large" style="color: #eee;">Synergize Ventures</h1>
-      <h4 style="color: white; z-index: 100000; margin: 0 20px;">Commerical Real Estate Investments</h4>
-    </header>
-    <section class="section-align about-us">
-      <div class="container">
-        <h1 class="heading-large">About us</h1>
-        <div class="about-cards">
-          <div class="section-align about-card about-card1">
-            <div class="front">
-              <div class="picture-container">
-                <img class="picture about-picture-1" src="img/people/daddy.jpeg" alt="Joseph Huang">
-              </div>
-              <h5 class="heading-small name">Joseph Huang</h5>
-              <p class="description">President and CEO</p>
-            </div>
-            <div class="back">
-              <h5 class="heading-small">Joseph Huang</h5>
-              Joseph Huang is the founder and CEO of Synergize Ventures. He has worked in informational technologies for over 20 years in companies like PMI and CSE Insurance. He holds a Bachelor degree in Computer Science from California Polytechnic University in San Luis Obispo.
-            </div>
-          </div>
-          <div class="section-align about-card about-card2">
-            <div class="front">
-              <div class="picture-container">
-                <img class="picture about-picture-2" src="img/people/mommy.jpeg" alt="Liliani Huandra">
-              </div>
-              <h5 class="heading-small name">Liliani Huandra</h5>
-              <p class="description">Co-Founder and CFO</p>
-            </div>
-            <div class="back">
-              <h5 class="heading-small">Liliani Huandra</h5>
-              Liliani Huandra is the co-founder and CFO for Synergize Ventures. She has worked for over 20 years in informational technology for companies like Verizon and IBM. She holds a Bachelor degree in Computer Science from California Polytechnic University in San Luis Obispo.
-            </div>
-          </div>
-          <div class="about-card about-card3">
-            <div class="front">
-              <div class="picture-container">
-                <img class="picture about-picture-3" src="img/people/calix.jpg" alt="Calix Huang">
-              </div>
-              <h5 class="heading-small name">Calix Huang</h5>
-              <p class="description">Web Developer and Administrator</p>
-            </div>
-            <div class="back">
-              <h5 class="heading-small">Calix Huang</h5>
-              Calix Huang is a web developer at Synergize Ventures and the web administrator of this website. He is the founder and president of HackSpace, and he is currently a sophmore in high school.
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- <section class="section-align our-partners">
-      <div class="container">
-        <h1 class="heading-large">Our Partners</h1>
-        <div class="about-cards">
-          <div class="section-align about-card about-card1">
-            <div class="front">
-              <div class="picture-container">
-                <img class="picture partner-picture-1" src="img/people/amit.jpg" alt="Amit">
-              </div>
-              <h5 class="heading-small name">Amit Tak</h5>
-              <p class="description">Principal of Lotus Equity Partners, Inc.</p>
-            </div>
-            <div class="back">
-              <h5 class="heading-small">Amit Tak</h5>
-              Amit Tak is the co-founder and principal of Lotus Equity Partners, Inc, along with his two partners and he has lots of experience in informational technology.
-            </div>
-          </div>
-          <div class="section-align about-card about-card1">
-            <div class="front">
-              <div class="picture-container">
-                <img class="picture partner-picture-1" src="img/people/amit.jpg" alt="Amit">
-              </div>
-              <h5 class="heading-small name">Danny Newberry</h5>
-              <p class="description">Principal of Lotus Equity Partners, Inc.</p>
-            </div>
-            <div class="back">
-              <h5 class="heading-small">Danny Newberry</h5>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </div>
-          </div>
-          <div class="section-align about-card about-card1">
-            <div class="front">
-              <div class="picture-container">
-                <img class="picture partner-picture-3" src="img/people/rikmagon.jpeg" alt="Amit">
-              </div>
-              <h5 class="heading-small name">Rik Magon</h5>
-              <p class="description">Principal of Lotus Equity Partners, Inc.</p>
-            </div>
-            <div class="back">
-              <h5 class="heading-small">Rik Magon</h5>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </div>
-          </div>
-          <div class="section-align about-card about-card1">
-            <div class="front">
-              <div class="picture-container">
-                <img class="picture partner-picture-1" src="img/people/amit.jpg" alt="Amit">
-              </div>
-              <h5 class="heading-small name">Sandy Magon</h5>
-              <p class="description">Principal of Lotus Equity Partners, Inc.</p>
-            </div>
-            <div class="back">
-              <h5 class="heading-small">Sandy Magon</h5>
-              Amit Tak is the co-founder and principal of Lotus Equity Partners, Inc, along with his two partners and he has lots of experience in informational technology.
-            </div>
-          </div>
-          <div class="section-align about-card about-card1">
-            <div class="front">
-              <div class="picture-container">
-                <img class="picture partner-picture-1" src="img/people/amit.jpg" alt="Amit">
-              </div>
-              <h5 class="heading-small name">Shawn Johanson</h5>
-              <p class="description">Principal of Lotus Equity Partners, Inc.</p>
-            </div>
-            <div class="back">
-              <h5 class="heading-small">Shawn Johanson</h5>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </div>
-          </div>
-          <div class="section-align about-card about-card1">
-            <div class="front">
-              <div class="picture-container">
-                <img class="picture partner-picture-1" src="img/people/amit.jpg" alt="Amit">
-              </div>
-              <h5 class="heading-small name">Allan Schmit</h5>
-              <p class="description">Principal of Lotus Equity Partners, Inc.</p>
-            </div>
-            <div class="back">
-              <h5 class="heading-small">Allan Schmit</h5>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </div>
-          </div>
-          <div class="section-align about-card about-card1">
-            <div class="front">
-              <div class="picture-container">
-                <img class="picture partner-picture-1" src="img/people/amit.jpg" alt="Amit">
-              </div>
-              <h5 class="heading-small name">Adam Britt</h5>
-              <p class="description">Principal of Lotus Equity Partners, Inc.</p>
-            </div>
-            <div class="back">
-              <h5 class="heading-small">Adam Britt</h5>
-              Amit Tak is the co-founder and principal of Lotus Equity Partners, Inc, along with his two partners and he has lots of experience in informational technology.
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <section class="section-align what-we-do">
-      <div class="img-area2"></div>
-      <h1 class="heading-large">What we do</h1>
-      <div class="flex-container text-boxes">
-        <div class="textbox text-box1">
-          <h5 class="heading-small text-box-title">Who we are</h5>
-          <p class="text-box-text">We are people who come from an IT, development, and computer science background that are excited to get our feet wet in real estate, build connections, and create a better life for ourselves. We are excited to learn about real estate and to invest in deals that will be very profitable.</p>
-        </div>
-        <div class="textbox text-box2">
-          <h5 class="heading-small text-box-title">Our Mission</h5>
-          <p class="text-box-text">Our mission is to grow our estate and create profits from each one, along with growing our name and building connections with other businesses, investors, and real estate experts. We strongly believe in synergy and working together to create an outcome bigger than we could individually.</p>
-        </div>
-        <div class="textbox text-box3">
-          <h5 class="heading-small text-box-title">Our Vision</h5>
-          <p class="text-box-text">Our vision is to grow tremendously off of our connections and estate to truly impact the world and to be able to teach others to grow their estate, manage the way they handle their money, and to build connections with people that are higher up the social chain than you are.</p>
-        </div>
-        <div class="textbox text-box4">
-          <h5 class="heading-small text-box-title">Invest</h5>
-          <p class="text-box-text">Investing is a core value to us because it is a form of synergy and teamwork, and it helps us both grow relationships and estate, as well as the experience in real estate. We appreciate those who choose to invest with us, we are always open to new investors in our real estate deals.</p>
-        </div>
-      </div>
-    </section>
-    <section class="section-align our-deals" id="deals">
-      <div class="container">
-        <h1 class="contact-us-header heading-large display-4">Our Deals</h1>
-        <div class="deals-box">
-          <div class="section-align deal deal1">
-            <img class="deal-picture" src="img/deals/falls-plaza.jpeg" alt="Falls Plaza">
-            <div class="deal-bottom">
-              <h5 class="heading-small deal-title">Falls Plaza II and III</h5>
-              <h5 class="heading-small">Menomonee Falls, WI</h5>
-              <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <!-- <a href="#popup" class="btn2">See more</a> -->
-            </div>
-          </div>
-          <div class="section-align deal deal2">
-            <img class="deal-picture" src="img/deals/northwood-plaza.jpeg" alt="Northwood Plaza">
-            <div class="deal-bottom">
-              <h5 class="heading-small deal-title">Northwood Plaza</h5>
-              <h5 class="heading-small">Houston, TX</h5>
-              <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <!-- <a href="#popup" class="btn2">See more</a> -->
-            </div>
-          </div>
-          <div class="section-align deal deal2">
-            <img class="deal-picture" src="img/deals/northwood-plaza.jpeg" alt="Northwood Plaza">
-            <div class="deal-bottom">
-              <h5 class="heading-small deal-title">Hornlake Stations</h5>
-              <h5 class="heading-small">Houston, TX</h5>
-              <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <!-- <a href="#popup" class="btn2">See more</a> -->
-            </div>
-          </div>
-          <div class="section-align deal deal2">
-            <img class="deal-picture" src="img/deals/northwood-plaza.jpeg" alt="Northwood Plaza">
-            <div class="deal-bottom">
-              <h5 class="heading-small deal-title">Fairmont Junction</h5>
-              <h5 class="heading-small">Houston, TX</h5>
-              <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <!-- <a href="#popup" class="btn2">See more</a> -->
-            </div>
-          </div>
-          <div class="section-align deal deal2">
-            <img class="deal-picture" src="img/deals/northwood-plaza.jpeg" alt="Northwood Plaza">
-            <div class="deal-bottom">
-              <h5 class="heading-small deal-title">5614 Allen</h5>
-              <h5 class="heading-small">Houston, TX</h5>
-              <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <!-- <a href="#popup" class="btn2">See more</a> -->
-            </div>
-          </div>
-          <div class="section-align deal deal2">
-            <img class="deal-picture" src="img/deals/northwood-plaza.jpeg" alt="Northwood Plaza">
-            <div class="deal-bottom">
-              <h5 class="heading-small deal-title">1001 Morh Ln.</h5>
-              <h5 class="heading-small">Houston, TX</h5>
-              <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <!-- <a href="#popup" class="btn2">See more</a> -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="flex-container contact-us">
-      <div class="img-area"></div>
-      <div class="hover-container">
-        <h1 class="heading-large">Contact Us</h1>
-        <form id="form-grid" class="form-grid" action="https://formspree.io/calix.huang1@gmail.com" method="post" autocomplete="off">
-          <input type="text" class="input firstname" name="First Name" placeholder="First Name">
-          <input type="text" class="input lastname" name="Last Name" placeholder="Last Name">
-          <input type="email" class="input email" name="Email" placeholder="Email">
-          <textarea class="input message" name="Message" placeholder="Message"></textarea>
 
-          <input type="hidden" name="_subject" value="Synergize Ventures" />
-        </form>
-        <input class="btn2" type="submit" value="Contact us" form="form-grid">
+      <div class="header-container">
+        <h1 class="page-header">Synergize Ventures</h1>
+        <h3>Commerical Real Estate Investments</h3>
       </div>
     </section>
-    <footer class="flex-container section-align footer">
+
+    <section class="who-we-are">
       <div class="container">
-        <img class="logo" src="img/logo.png" alt="dude">
-        <div class="grid-container">
-          <div class="contact-information-boxes">
-            <h3 class="heading-medium">Contact us</h3>
-            <div class="contact">
-              <h5 class="heading-small contact-name">Joseph Huang</h5>
-              <ul class="info">
-                <li class="info-item">jh@synergizeventures.com</li>
-                <li class="info-item">(925)-658-2637</li>
-              </ul>
-            </div>
-            <div class="contact">
-              <h5 class="heading-small contact-name">Liliani Huandra</h5>
-              <ul class="info">
-                <li class="info-item">liliani.huang@gmail.com</li>
-                <li class="info-item">(925)-999-0803</li>
-              </ul>
-            </div>
-            <div class="contact">
-              <h5 class="heading-small contact-name">Calix Huang</h5>
-              <ul class="info">
-                <li class="info-item">calix.huang1@gmail.com</li>
-                <li class="info-item">(925)-332-6127</li>
-              </ul>
-            </div>
+        <h2 class="section-header">Who We Are</h2>
+        <div class="who-we-are-grid mt-5">
+          <div class="who-we-are-grid-item who-we-are-grid-item-odd">
+            <img class="who-we-are-grid-item-image" src="./static/img/testimage.jpeg" alt="">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
           </div>
-          <div class="social-media-boxes">
-            <h3 class="heading-medium">Follow us on social media</h3>
-            <ul class="social-media-list">
-              <li class="social-media-list-item">Coming Soon!</li>
-            </ul>
+          <div class="who-we-are-grid-item who-we-are-grid-item-even">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <img class="who-we-are-grid-item-image" src="./static/img/testimage.jpeg" alt="">
+          </div>
+          <div class="who-we-are-grid-item who-we-are-grid-item-odd">
+            <img class="who-we-are-grid-item-image" src="./static/img/testimage.jpeg" alt="">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
           </div>
         </div>
-        <small class="copyright">Copyright &copy; 2019 Synergize Ventures Inc. All rights reserved.</small>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container text-center">
+        <img src="./static/img/logo.png" alt="" class="footer-logo mb-4">
+        <br>
+        <small class="text-white">Copyright &copy; 2019 Synergize Ventures Inc. All rights reserved.</small>
       </div>
     </footer>
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Website Under Construction</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            Our website is currently under construction, and we are in the process of a complete website redesign. Please know that the content here is outdated, and it will be replaced soon. Sorry for the inconvenience.
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
   </body>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -327,8 +90,21 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
       crossorigin="anonymous"></script>
   <script>
-    setTimeout(function() {
-      $('#exampleModal').modal('show');
-    }, 2000);
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".fixed-top");
+        $nav.toggleClass('scrolled navbar-light', $(this).scrollTop() > $nav.height());
+        $nav.toggleClass('navbar-dark', $(this).scrollTop() < $nav.height());
+
+        var $separatorRight = $(".separator-right")
+        $separatorRight.toggleClass('separator-right-dark', $(this).scrollTop() > $nav.height())
+
+        var $promptItem = $('.prompt-item');
+        $promptItem.toggleClass('prompt-item-dark', $(this).scrollTop() > $nav.height())
+
+        var $shoppingList = $('.shopping-list')
+        $shoppingList.toggleClass('shopping-list-dark', $(this).scrollTop() > $nav.height())
+      });
+    });
   </script>
 </html>

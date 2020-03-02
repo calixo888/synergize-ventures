@@ -1,0 +1,36 @@
+@media (max-width: 1200px) {
+  // DRONE SHOT GETS SQUISHED
+  .header-video {
+    height: 100% !important;
+    width: auto !important;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  // OUR DEALS GRID GETS SQUISHED
+  .deals-grid-item-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)) !important;
+  }
+}
+
+
+@media (max-width: 800px) {
+  // WHO WE ARE GETS SQUISHED
+  .who-we-are-grid-item {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)) !important;
+  }
+
+  // CONTACT US GRID GETS SQUISHED
+  .contact-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)) !important;
+  }
+}
+
+
+@media (max-width: 500px) {
+  // FOOTER GETS SQUISHED
+  .footer-logo {
+    width: 100%;
+  }
+}

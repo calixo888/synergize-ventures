@@ -1,0 +1,19 @@
+.contact {
+  background-color: #eee;
+  padding-top: 100px;
+
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+
+    &-information {
+      &-box {
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        padding: 30px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
