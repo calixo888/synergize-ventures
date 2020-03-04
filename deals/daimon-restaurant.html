@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Synergize Ventures</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./static/css/styles.css">
+    <link rel="stylesheet" href="../static/css/styles.css">
     <link rel="icon" href="./static/img/cut-logo.png">
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-              <img src="./static/img/cut-logo.png" alt="" class="navbar-logo">
+              <img src="../static/img/cut-logo.png" alt="" class="navbar-logo">
             </a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-target">
               <span class="navbar-toggler-icon"></span>
@@ -20,62 +20,65 @@
             <div class="collapse navbar-collapse" id="navbar-target">
               <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
-                      <a class="nav-link" href="index.html">Home</a>
+                      <a class="nav-link" href="../index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="our-deals.html">Our Deals</a>
+                      <a class="nav-link" href="../our-deals.html">Our Deals</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="our-team.html">Our Team</a>
+                      <a class="nav-link" href="../our-team.html">Our Team</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="our-partners.html">Our Partners</a>
+                      <a class="nav-link" href="../our-partners.html">Our Partners</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
+                      <a class="nav-link" href="../contact.html">Contact</a>
                   </li>
               </ul>
             </div>
         </div>
     </nav>
 
-    <section class="contact">
+    <section class="deal">
       <div class="container">
-        <h1 class="page-header">Contact Us</h1>
-        <div class="contact-grid mt-5">
-          <div class="contact-grid-form">
-            <form method="post">
-              <input class="form-input" type="text" name="name" placeholder="Name">
-              <input class="form-input" type="email" name="email" placeholder="Email">
-              <textarea class="form-input" name="message" rows="5" placeholder="Message"></textarea>
-              <input class="primary-cta-button" type="submit" value="Contact Us">
-            </form>
-          </div>
-          <div class="contact-grid-information">
-            <div class="contact-grid-information-box">
-              <h5>Name</h5>
-              <span>Email: mail@mail.com</span>
-              <br>
-              <span>Phone: (phone boi)</span>
-            </div>
-            <div class="contact-grid-information-box">
-              <h5>Name</h5>
-              <span>Email: mail@mail.com</span>
-              <br>
-              <span>Phone: (phone boi)</span>
-            </div>
-            <div class="contact-grid-information-box">
-              <h5>Mail to us at</h5>
-              <span>P.O Box 1932, Danville, California, 94526</span>
+        <div id="carouselExampleIndicators" class="carousel slide deal-carousel" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          </ol>
+          <div class="deal-carousel-inner carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="../static/img/deals/daimon-restaurant/img1.jpeg" alt="First slide">
             </div>
           </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+
+        <div class="deal-info">
+          <h3 class="text-center sub-header">Daimon Japanese Restaurant</h3>
+          <p>
+          16232 Pacific Coast Highway, Huntington Beach, California 92649
+          <br>
+          <a href="https://daimonrestaurant.com/">https://daimonrestaurant.com/</a>
+          <br>
+          (562) 592-4862
+          <br><br>
+          Daimon Japanese Restaurant is Huntington Beach's secret spot since 1983. With over 35 years of history, Daimon invites you to enjoy an evening of excellent food, fine drinks, and great fun.  Our caring and committed staff will ensure you have a fantastic experience with us.
+          </p>
         </div>
       </div>
     </section>
 
     <footer class="footer">
       <div class="container text-center">
-        <img src="./static/img/logo.png" alt="" class="footer-logo mb-4">
+        <img src="../static/img/logo.png" alt="" class="footer-logo mb-4">
         <br>
         <small class="text-white">Copyright &copy; 2019 Synergize Ventures Inc. All rights reserved.</small>
       </div>

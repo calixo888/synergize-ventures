@@ -3,12 +3,18 @@
   padding-top: 100px;
 
   &-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 50px;
 
     &-item {
       text-align: center;
+      display: grid;
+      grid-template-columns: 30% 1fr;
+      grid-gap: 50px;
+      align-items: center;
+      margin-bottom: 50px;
+
+      & p {
+        text-align: left;
+      }
     }
   }
 }

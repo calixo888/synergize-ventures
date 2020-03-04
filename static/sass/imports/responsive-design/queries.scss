@@ -16,6 +16,12 @@
 
 
 @media (max-width: 800px) {
+  // NAVBAR GETS SQUISHED
+  nav {
+    background-color: white !important;
+    transition: all 200ms linear;
+  }
+
   // WHO WE ARE GETS SQUISHED
   .who-we-are-grid-item {
     grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)) !important;
@@ -24,6 +30,12 @@
   // CONTACT US GRID GETS SQUISHED
   .contact-grid {
     grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)) !important;
+  }
+
+  // TEAM AND PARTNERS GET SQUISHED
+  .team-grid-item, .partners-grid-item {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)) !important;
+    grid-gap: 10px !important;
   }
 }
 
