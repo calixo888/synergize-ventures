@@ -126,7 +126,7 @@ p {
   .who-we-are-grid-item {
     margin-bottom: 50px;
     display: grid;
-    grid-gap: 30px;
+    grid-gap: 50px;
     align-items: center; }
     .who-we-are-grid-item-image {
       width: 100%; }
